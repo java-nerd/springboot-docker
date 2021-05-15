@@ -9,7 +9,7 @@ public class MainController {
 
 	@GetMapping("/")
 	public String homePage(Model model) {
-		model.addAttribute("title", "Spring + Docker Example");
+		model.addAttribute("title", "Spring + Docker Example.");
 		model.addAttribute("msg", "Hurray! You have made it.");
 		return "index";
 	}
